@@ -1,0 +1,31 @@
+{
+  "name": "Node.js Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "forwardPorts": [3000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "ms-vsliveshare.vsliveshare",
+        "visualstudioexptteam.vscodeintellicode",
+        "christian-kohler.path-intellisense",
+        "coenraads.bracket-pair-colorizer",
+        "leizongmin.node-module-intellisense",
+        "humao.rest-client",
+        "ms-azuretools.vscode-docker",
+        "GitHub.copilot",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "mervin.markdown-formatter",
+        "darkriszty.markdown-table-prettify"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
+}
