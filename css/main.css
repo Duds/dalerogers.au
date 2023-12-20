@@ -1,0 +1,25 @@
+@import 'https://cdn.jsdelivr.net/npm/normalize.css/normalize.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css';
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #2c3e50;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", serif;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

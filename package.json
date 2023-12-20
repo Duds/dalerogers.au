@@ -1,0 +1,37 @@
+{
+  "name": "dalerogers.au",
+  "version": "1.0.0",
+  "description": "DaleRogers.au is a visually engaging, interactive portfolio website showcasing Dale Rogers' professional accomplishments and creative works. It features a unique art story experience with parallax scrolling and horizontal navigation, providing visitors with an immersive journey through Dale's artistic and professional landscape. This site combines modern web technologies to create a dynamic, responsive, and accessible online presence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duds/dalerogers.au.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web development",
+    "personal website",
+    "interactive",
+    "parallax scrolling",
+    "art",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Node.js",
+    "developer"
+  ],
+  "author": "Dale Rogers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Duds/dalerogers.au/issues"
+  },
+  "homepage": "https://github.com/Duds/dalerogers.au#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sass": "^1.69.5"
+  }
+}
